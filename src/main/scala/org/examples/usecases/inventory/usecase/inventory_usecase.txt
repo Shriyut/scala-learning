@@ -1,0 +1,63 @@
+Case Study: Developing a Scala-Based Inventory Management System
+
+Objective: Develop a simplified, functional inventory management system that incorporates key Scala concepts, including collections, pattern matching, functional programming, higher-order functions, and concurrency using futures.
+
+Scenario: You are hired as a developer at a mid-sized retail company. The company needs an inventory management system to keep track of products, monitor stock levels, and manage inventory updates asynchronously as customers place orders.
+
+Requirements:
+
+Data Structures and Initialization:
+
+Create a set of case classes for Product and Inventory.
+
+Product should include fields such as id, name, category, and price.
+
+Inventory should store information about stock levels and link each Product to its quantity.
+
+Use a Map collection to associate each Product with its stock quantity.
+
+Core Functionalities:
+
+Add Products: A method that adds new products to the inventory.
+
+Update Stock: A method to update the stock of a product when a sale is made.
+
+Check Stock: A method to check if a product is in stock using pattern matching.
+
+Stock Report: A method to print a report of the products in the inventory and their current stock levels.
+
+Functional Programming Concepts:
+
+Use immutable collections to store and manage the inventory.
+
+Implement pattern matching to handle different scenarios when checking stock (e.g., product exists with sufficient stock, insufficient stock, product not found).
+
+Implement higher-order functions (e.g., passing functions as arguments for filtering products by category or price range).
+
+Error Handling:
+
+Implement proper error handling using Option, Try, and Either when retrieving products and updating stock.
+
+Tasks:
+
+Task 1: Initialize the System
+
+Create the product and inventory classes, and initialize a sample inventory with at least 5 products.
+
+Task 2: Implement Core Features
+
+Implement the functions for adding products, updating stock, checking stock levels, and generating stock reports.
+
+Task 3: Handle Errors Gracefully
+
+Ensure proper error handling with Option, Try, and Either monads for scenarios such as out-of-stock products or invalid product IDs.
+
+Expected Outcome:
+
+At the end of the case study, you should have a functional inventory management system that:
+
+Uses immutable collections for product and stock management.
+
+Applies functional programming principles in designing the system.
+
+Demonstrates strong use of error handling with monads like Option and Either.
